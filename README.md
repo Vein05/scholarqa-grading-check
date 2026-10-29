@@ -1,7 +1,5 @@
 # One citation rule moves Perplexity from #20 to #1 on ScholarQA-CS2
 
-Sugam Panthi (University of Southern Mississippi), 2026-10-28. Preliminary analysis.
-
 ScholarQA-CS2 is the long-form literature QA benchmark in AstaBench (Bragg et al., ICLR 2026,
 [arXiv 2510.21652](https://arxiv.org/abs/2510.21652)). An LLM judge scores each answer on four parts, and the
 leaderboard ranks systems by their average. One part of the scoring gives a claim half credit when its citation has
