@@ -11,6 +11,14 @@ its claims. Without the penalty it moves from #20 to #1, above every Asta Schola
 of 0.1 it ranks #8. Every other system has under 2.5% of its claims at half credit and keeps its place. One
 constant in the grading decides where a whole class of systems lands on the leaderboard.
 
+![Left: a claim cited with title and quote gets credit 1; cited by title only it gets 1 − w. Right: the rank of the 35 submissions as w moves from 0.5 to 0; Perplexity rises from #20 to #1.](figures/fig1.png)
+
+*Figure 1. Left: a claim whose citation has a title but no supporting quote keeps 1 − w of its credit (official
+w = 0.5). The claim is illustrative; the page excerpts are from OpenScholar (Asai et al., 2024,
+[arXiv 2411.14199](https://arxiv.org/abs/2411.14199), CC BY 4.0). Right: rank of the 35 public submissions as w
+moves from 0.5 to 0 (square-root scale). Perplexity Sonar Deep Research rises from #20 to #1; You.com moves from
+#26 to #24. PDF: [`figures/fig1.pdf`](figures/fig1.pdf).*
+
 ## How ScholarQA-CS2 scores an answer
 
 The score is the mean of four parts, each judged by an LLM: ingredient recall (coverage of the rubric's points),
@@ -107,4 +115,4 @@ python3 scripts/rerank_quote_rule.py
 ```
 
 The submissions dataset terms forbid redistribution, so this repository contains no submission data and no tables
-computed from it beyond the numbers in this README.
+computed from it beyond the numbers in this README and the ranks drawn in Figure 1.
